@@ -1,6 +1,7 @@
 previewsEnabled: true
 services:
   - name: create-react-app
+    repo: https://github.com/kwlockwo/render-create-react-app
     type: web
     runtime: static
     buildCommand: yarn install && yarn build
