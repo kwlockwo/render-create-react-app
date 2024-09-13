@@ -1,4 +1,4 @@
-previewsEnabled: off
+previewsEnabled: on
 services:
   - name: create-react-app
     repo: https://github.com/kwlockwo/render-create-react-app
