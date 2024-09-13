@@ -1,9 +1,10 @@
-previewsEnabled: on
+previewsEnabled: off
 services:
   - name: create-react-app
     repo: https://github.com/kwlockwo/render-create-react-app
     type: web
     runtime: static
+    autoDeploy: off
     previews:
       generation: automatic
     buildCommand: yarn install && yarn build
