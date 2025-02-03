@@ -1,4 +1,4 @@
-previewsEnabled: off
+previewsEnabled: on
 services:
   - name: create-react-app
     repo: https://github.com/kwlockwo/render-create-react-app
@@ -16,3 +16,7 @@ services:
     envVars:
       - key: FOO
         value: bar
+databases:
+  - name: cra-db
+    plan: basic-256mb
+    diskSizeGB: 1
